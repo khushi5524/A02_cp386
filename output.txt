@@ -1,0 +1,37 @@
+The output of: uname -a : is
+>>>>>>>>>>>>>>>>
+Linux Leo 5.15.79.1-microsoft-standard-WSL2 #1 SMP Wed Nov 23 01:01:46 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+<<<<<<<<<<<<<<<<<
+The output of: free -m : is
+>>>>>>>>>>>>>>>>
+              total        used        free      shared  buff/cache   available
+Mem:           7799         833        6421           2         545        6733
+Swap:          2048           0        2048
+<<<<<<<<<<<<<<<<<
+The output of: ls -l -a -F : is
+>>>>>>>>>>>>>>>>
+total 100
+drwxr-xr-x 4 cl386u cl386u  4096 Feb  9 06:07 ./
+drwxr-xr-x 9 cl386u cl386u  4096 Feb  8 23:57 ../
+drwxr-xr-x 8 cl386u cl386u  4096 Feb  8 23:57 .git/
+drwxr-xr-x 2 cl386u cl386u  4096 Feb  9 05:36 .vscode/
+-rw-r--r-- 1 cl386u cl386u   715 Feb  9  2023 Makefile
+-rw-r--r-- 1 cl386u cl386u    11 Feb  8 23:57 README.md
+-rwxr-xr-x 1 cl386u cl386u 20752 Feb  9 06:02 assignment_average*
+-rw-r--r-- 1 cl386u cl386u  2149 Feb  9 02:15 assignment_average.c
+-rw-r--r-- 1 cl386u cl386u   233 Feb  9  2023 makefile.a2:Zone.Identifier
+-rw-r--r-- 1 cl386u cl386u  1582 Feb  9 06:05 output.txt
+-rwxr-xr-x 1 cl386u cl386u 22520 Feb  9 06:07 process_management*
+-rw-r--r-- 1 cl386u cl386u  3658 Feb  9 06:07 process_management.c
+-rw-r--r-- 1 cl386u cl386u   284 Feb  9 05:38 process_management.h
+-rw-r--r-- 1 cl386u cl386u   175 Feb  8 23:57 sample_in_grades.txt
+-rw-r--r-- 1 cl386u cl386u    39 Feb  9 05:40 sample_in_process.txt
+<<<<<<<<<<<<<<<<<
+The output of: whoami : is
+>>>>>>>>>>>>>>>>
+cl386u
+<<<<<<<<<<<<<<<<<
+The output of: pwd : is
+>>>>>>>>>>>>>>>>
+/home/cl386u/A02_cp386
+<<<<<<<<<<<<<<<<<
